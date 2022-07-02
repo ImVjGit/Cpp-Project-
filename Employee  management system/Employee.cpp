@@ -123,7 +123,7 @@ public:
             cout << "\nnot Found ";
             return;
         }
-        while (p->getnext()->getnext() != NULL)
+        while (p->getnext()!= NULL)
         {
             Emp e1 = p->getnext()->getdata();
             if (id == e1.getid())
