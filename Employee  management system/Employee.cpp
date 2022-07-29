@@ -8,14 +8,14 @@ class Emp
     float basic;
 
 public:
-    Emp()
+    Emp() //D
     {
         eid = 00;
         strcpy(name, "Not Given");
         basic = 00;
     }
 
-    Emp(int d, const char *nm, float bs)
+    Emp(int d, const char *nm, float bs)//PARA
     {
         eid = d;
         strcpy(name, nm);
